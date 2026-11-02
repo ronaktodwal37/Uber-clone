@@ -10,8 +10,8 @@ module.exports.createUser = async({
     }
     const user = userModel.create({
         fullname:{
-            firstname,
-            lastname
+            // firstname,
+            // lastname
         },
         // email,
         // password
