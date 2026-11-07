@@ -44,6 +44,6 @@ const userSchema = new mongoose.Schema({
 //     return await bcrypt.hash(password,10);
 // }
 
-const userModel = mongoose.model('user',userSchema);
+// const userModel = mongoose.model('user',userSchema);
 
-module.exports = userModel;
+// module.exports = userModel;
