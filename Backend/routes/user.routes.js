@@ -17,7 +17,7 @@ router.post('/login',[
     body('password').isLength({min:6}).withMessage('Password')
 ],
 
-    userController.loginUser
+    // userController.loginUser
 )
 
 
