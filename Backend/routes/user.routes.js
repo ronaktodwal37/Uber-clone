@@ -12,13 +12,13 @@ router.post('/register',[
     userController.registerUser
 )
 
-router.post('/login',[
-    body('email').isEmail().withMessage('Invalid Email'),
-    body('password').isLength({min:6}).withMessage('Password')
-],
+// router.post('/login',[
+//     body('email').isEmail().withMessage('Invalid Email'),
+//     body('password').isLength({min:6}).withMessage('Password')
+// ],
 
     // userController.loginUser
-)
+// )
 
 
 // router.get('/profile', authMiddleware.authUser,userController.getUserProfile)
